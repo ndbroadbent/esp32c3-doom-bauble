@@ -1,0 +1,12 @@
+Comment,Designator,Footprint,LCSC
+"1u","C1,C2,C3,C4","Capacitor_SMD:C_0603_1608Metric",""
+"10u","C5","Capacitor_SMD:C_0805_2012Metric",""
+"MBR0520","D1","Diode_SMD:D_SOD-123",""
+"LCD_LH096T","DISP1","jeroens_lib:LCD_LH086T",""
+"AO3401","Q1","Package_TO_SOT_SMD:SOT-23",""
+"10K","R1,R2","Resistor_SMD:R_0603_1608Metric",""
+"4K7","R3","Resistor_SMD:R_0603_1608Metric",""
+"220","R4","Resistor_SMD:R_0603_1608Metric",""
+"HT7833_SOT89","U1","Package_TO_SOT_SMD:SOT-89-3",""
+"TP4057","U2","Package_TO_SOT_SMD:SOT-23-6",""
+"ESP32-C3-WROOM-02","U3","Espressif:ESP32-C3-WROOM-02",""

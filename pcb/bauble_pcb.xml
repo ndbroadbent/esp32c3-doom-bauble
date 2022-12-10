@@ -2,7 +2,7 @@
 <export version="E">
   <design>
     <source>/Users/ndbroadbent/code/esp32c3-doom-bauble/pcb/bauble_pcb.kicad_sch</source>
-    <date>Saturday, December 10, 2022 at 08:09:17 PM</date>
+    <date>Saturday, December 10, 2022 at 08:37:15 PM</date>
     <tool>Eeschema (6.0.7-1)-1</tool>
     <sheet number="1" name="/" tstamps="/">
       <title_block>
@@ -79,16 +79,6 @@
       <sheetpath names="/" tstamps="/"/>
       <tstamps>d17b11e2-9f93-42bc-b187-989d39d95531</tstamps>
     </comp>
-    <comp ref="DISP1">
-      <value>LCD_LH096T</value>
-      <footprint>jeroens_lib:LCD_LH086T</footprint>
-      <datasheet>http://www.jmdlcd.com/downloadRepository/f743f83e-f761-4d72-b1f0-3fcd0ae34dc2.pdf</datasheet>
-      <libsource lib="Jeroens lib" part="LCD_LH096T" description="LH096T 160*80 color LCD"/>
-      <property name="Sheetname" value=""/>
-      <property name="Sheetfile" value="bauble_pcb.kicad_sch"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamps>40df756f-b48b-4120-93b2-8982a744d13c</tstamps>
-    </comp>
     <comp ref="Q1">
       <value>AO3401</value>
       <footprint>Package_TO_SOT_SMD:SOT-23</footprint>
@@ -154,16 +144,6 @@
       <property name="Sheetfile" value="bauble_pcb.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamps>84398c9f-77cf-4ccc-be4f-67aebf979fbf</tstamps>
-    </comp>
-    <comp ref="U3">
-      <value>ESP32-C3-WROOM-02</value>
-      <footprint>Espressif:ESP32-C3-WROOM-02</footprint>
-      <datasheet>https://www.espressif.com/sites/default/files/documentation/esp32-c3-wroom-02_datasheet_en.pdf</datasheet>
-      <libsource lib="Espressif" part="ESP32-C3-WROOM-02" description="ESP32-C3-WROOM-02 is a general-purpose Wi-Fi and Bluetooth LE module. This module features a rich set of peripherals and high performance, which makes it an ideal choice for smart home, industrial automation, health care, consumer electronics, etc."/>
-      <property name="Sheetname" value=""/>
-      <property name="Sheetfile" value="bauble_pcb.kicad_sch"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamps>2653ed4b-31b4-4354-b487-8e1c944b191d</tstamps>
     </comp>
   </components>
   <libparts>
@@ -374,18 +354,13 @@
   <nets>
     <net code="1" name="+3V3">
       <node ref="C4" pin="1" pintype="passive"/>
-      <node ref="DISP1" pin="10" pinfunction="VCC" pintype="input"/>
       <node ref="R2" pin="1" pintype="passive"/>
       <node ref="R4" pin="1" pintype="passive"/>
       <node ref="U1" pin="3" pinfunction="VOUT" pintype="power_out"/>
-      <node ref="U3" pin="1" pinfunction="3V3" pintype="power_in"/>
-      <node ref="U3" pin="16" pinfunction="GPIO2/ADC1_CH2" pintype="bidirectional"/>
     </net>
     <net code="2" name="EN">
       <node ref="C3" pin="1" pintype="passive"/>
-      <node ref="DISP1" pin="6" pinfunction="RES" pintype="input"/>
       <node ref="R2" pin="2" pintype="passive"/>
-      <node ref="U3" pin="2" pinfunction="EN/CHIP_PU" pintype="input"/>
     </net>
     <net code="3" name="GND">
       <node ref="C1" pin="2" pintype="passive"/>
@@ -393,31 +368,10 @@
       <node ref="C3" pin="2" pintype="passive"/>
       <node ref="C4" pin="2" pintype="passive"/>
       <node ref="C5" pin="2" pintype="passive"/>
-      <node ref="DISP1" pin="11" pinfunction="LEDK" pintype="power_in"/>
-      <node ref="DISP1" pin="13" pinfunction="GND" pintype="power_in"/>
-      <node ref="DISP1" pin="8" pinfunction="GND" pintype="power_in"/>
       <node ref="R1" pin="2" pintype="passive"/>
       <node ref="R3" pin="2" pintype="passive"/>
       <node ref="U1" pin="1" pinfunction="GND" pintype="power_in"/>
       <node ref="U2" pin="2" pinfunction="GND" pintype="power_in"/>
-      <node ref="U3" pin="19" pinfunction="GND" pintype="power_in"/>
-      <node ref="U3" pin="9" pinfunction="GND" pintype="power_in"/>
-    </net>
-    <net code="4" name="LCD_CS">
-      <node ref="DISP1" pin="7" pinfunction="CS" pintype="input"/>
-      <node ref="U3" pin="8" pinfunction="GPIO9" pintype="bidirectional"/>
-    </net>
-    <net code="5" name="LCD_RS">
-      <node ref="DISP1" pin="5" pinfunction="RS" pintype="input"/>
-      <node ref="U3" pin="12" pinfunction="GPIO21/U0TXD" pintype="bidirectional"/>
-    </net>
-    <net code="6" name="LCD_SCL">
-      <node ref="DISP1" pin="4" pinfunction="SCL" pintype="input"/>
-      <node ref="U3" pin="11" pinfunction="GPIO20/U0RXD" pintype="bidirectional"/>
-    </net>
-    <net code="7" name="LCD_SDA">
-      <node ref="DISP1" pin="3" pinfunction="SDA" pintype="input"/>
-      <node ref="U3" pin="10" pinfunction="GPIO10" pintype="bidirectional"/>
     </net>
     <net code="8" name="Net-(C5-Pad1)">
       <node ref="C5" pin="1" pintype="passive"/>
@@ -429,20 +383,7 @@
       <node ref="Q1" pin="2" pinfunction="S" pintype="passive"/>
     </net>
     <net code="10" name="Net-(DISP1-Pad12)">
-      <node ref="DISP1" pin="12" pinfunction="LEDA" pintype="power_in"/>
       <node ref="R4" pin="2" pintype="passive"/>
-    </net>
-    <net code="11" name="Net-(J1-Pad1)">
-      <node ref="U3" pin="7" pinfunction="GPIO8" pintype="bidirectional"/>
-    </net>
-    <net code="12" name="Net-(J1-Pad2)">
-      <node ref="U3" pin="6" pinfunction="GPIO7" pintype="bidirectional"/>
-    </net>
-    <net code="13" name="Net-(J2-Pad2)">
-      <node ref="U3" pin="13" pinfunction="GPIO18/USB_D-" pintype="bidirectional"/>
-    </net>
-    <net code="14" name="Net-(J2-Pad3)">
-      <node ref="U3" pin="14" pinfunction="GPIO19/USB_D+" pintype="bidirectional"/>
     </net>
     <net code="15" name="Net-(R3-Pad1)">
       <node ref="R3" pin="1" pintype="passive"/>
@@ -461,32 +402,9 @@
     </net>
     <net code="18" name="nCHRG">
       <node ref="U2" pin="1" pinfunction="nCHRG" pintype="open_collector"/>
-      <node ref="U3" pin="18" pinfunction="GPIO0/ADC1_CH0/XTAL_32K_P" pintype="bidirectional"/>
     </net>
     <net code="19" name="nSTDBY">
       <node ref="U2" pin="5" pinfunction="nSTDBY" pintype="open_collector"/>
-      <node ref="U3" pin="17" pinfunction="GPIO1/ADC1_CH1/XTAL_32K_N" pintype="bidirectional"/>
-    </net>
-    <net code="20" name="unconnected-(DISP1-Pad1)">
-      <node ref="DISP1" pin="1" pinfunction="TP0" pintype="no_connect"/>
-    </net>
-    <net code="21" name="unconnected-(DISP1-Pad2)">
-      <node ref="DISP1" pin="2" pinfunction="TP1" pintype="no_connect"/>
-    </net>
-    <net code="22" name="unconnected-(DISP1-Pad9)">
-      <node ref="DISP1" pin="9" pinfunction="NC" pintype="no_connect"/>
-    </net>
-    <net code="23" name="unconnected-(U3-Pad3)">
-      <node ref="U3" pin="3" pinfunction="GPIO4/ADC1_CH4" pintype="bidirectional+no_connect"/>
-    </net>
-    <net code="24" name="unconnected-(U3-Pad4)">
-      <node ref="U3" pin="4" pinfunction="GPIO5/ADC2_CH0" pintype="bidirectional+no_connect"/>
-    </net>
-    <net code="25" name="unconnected-(U3-Pad5)">
-      <node ref="U3" pin="5" pinfunction="GPIO6" pintype="bidirectional+no_connect"/>
-    </net>
-    <net code="26" name="unconnected-(U3-Pad15)">
-      <node ref="U3" pin="15" pinfunction="GPIO3/ADC1_CH3" pintype="bidirectional+no_connect"/>
     </net>
   </nets>
 </export>

@@ -1353,7 +1353,7 @@
   )
 
   (symbol (lib_id "Espressif:ESP32-C3-WROOM-02") (at 130.81 87.63 0) (unit 1)
-    (in_bom yes) (on_board yes) (fields_autoplaced)
+    (in_bom no) (on_board yes) (fields_autoplaced)
     (uuid 2653ed4b-31b4-4354-b487-8e1c944b191d)
     (property "Reference" "U3" (id 0) (at 131.445 52.3072 0))
     (property "Value" "ESP32-C3-WROOM-02" (id 1) (at 131.445 54.8441 0))
@@ -1537,7 +1537,7 @@
   )
 
   (symbol (lib_id "Jeroens lib:LCD_LH096T") (at 219.71 96.52 0) (unit 1)
-    (in_bom yes) (on_board yes) (fields_autoplaced)
+    (in_bom no) (on_board yes) (fields_autoplaced)
     (uuid 40df756f-b48b-4120-93b2-8982a744d13c)
     (property "Reference" "DISP1" (id 0) (at 230.505 98.8603 0)
       (effects (font (size 1.27 1.27)) (justify left))
@@ -1729,7 +1729,7 @@
   (symbol (lib_id "power:+3V3") (at 91.44 76.2 0) (unit 1)
     (in_bom yes) (on_board yes) (fields_autoplaced)
     (uuid 9cad33bf-0dc9-4e38-8ef0-2a0030389af7)
-    (property "Reference" "#PWR?" (id 0) (at 91.44 80.01 0)
+    (property "Reference" "#PWR0118" (id 0) (at 91.44 80.01 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+3V3" (id 1) (at 91.44 72.6242 0))
@@ -2063,7 +2063,7 @@
       (reference "#PWR0117") (unit 1) (value "+3V3") (footprint "")
     )
     (path "/9cad33bf-0dc9-4e38-8ef0-2a0030389af7"
-      (reference "#PWR?") (unit 1) (value "+3V3") (footprint "")
+      (reference "#PWR0118") (unit 1) (value "+3V3") (footprint "")
     )
     (path "/305fe303-2dc1-4958-b9c7-868442bbd927"
       (reference "C1") (unit 1) (value "1u") (footprint "Capacitor_SMD:C_0603_1608Metric")

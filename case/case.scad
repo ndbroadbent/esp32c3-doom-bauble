@@ -29,16 +29,15 @@ module pokey() {
 
 module bot_plate() {
     hull() {
-        translate([12,12.5,-.1]) cylinder(h=0.5, d=5);
-        translate([-12,12.5,-.1]) cylinder(h=0.5, d=5);
-        translate([12,-11,-.1]) cylinder(h=0.5, d=5);
-        translate([-12,-11,-.1]) cylinder(h=0.5, d=5);
+        translate([12,12.5,-.8]) cylinder(h=1.2, d=5);
+        translate([-12,12.5,-.8]) cylinder(h=1.2, d=5);
+        translate([12,-11,-.8]) cylinder(h=1.2, d=5);
+        translate([-12,-11,-.8]) cylinder(h=1.2, d=5);
     }
     translate([12,10,-.1]) pokey();
     translate([-12,10,-.1]) pokey();
     translate([12,-10,-.1]) pokey();
     translate([-12,-10,-.1]) pokey();
-
 }
 
 module pc_model() {

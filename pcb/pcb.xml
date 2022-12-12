@@ -1,0 +1,410 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export version="E">
+  <design>
+    <source>/Users/ndbroadbent/code/esp32c3-doom-bauble/pcb/bauble_pcb.kicad_sch</source>
+    <date>Sunday, December 11, 2022 at 01:23:21 AM</date>
+    <tool>Eeschema (6.0.7-1)-1</tool>
+    <sheet number="1" name="/" tstamps="/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date/>
+        <source>bauble_pcb.kicad_sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+  </design>
+  <components>
+    <comp ref="C1">
+      <value>1u</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="bauble_pcb.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>305fe303-2dc1-4958-b9c7-868442bbd927</tstamps>
+    </comp>
+    <comp ref="C2">
+      <value>1u</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="bauble_pcb.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>7a354507-071a-4ad6-9555-0e262011abd6</tstamps>
+    </comp>
+    <comp ref="C3">
+      <value>1u</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="bauble_pcb.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>1e32bc59-8ea4-4de5-9dc2-0ca71c1e9d93</tstamps>
+    </comp>
+    <comp ref="C4">
+      <value>1u</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="bauble_pcb.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>51ef55e9-d274-438e-8bec-b0da5705b782</tstamps>
+    </comp>
+    <comp ref="C5">
+      <value>10u</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="bauble_pcb.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>2f9d8c5d-b84d-4268-ba4d-116c848141fa</tstamps>
+    </comp>
+    <comp ref="D1">
+      <value>MBR0520</value>
+      <footprint>Diode_SMD:D_SOD-123</footprint>
+      <datasheet>http://www.mccsemi.com/up_pdf/MBR0520~MBR0580(SOD123).pdf</datasheet>
+      <libsource lib="Diode" part="MBR0520" description="20V 0.5A Schottky Power Rectifier Diode, SOD-123"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="bauble_pcb.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>d17b11e2-9f93-42bc-b187-989d39d95531</tstamps>
+    </comp>
+    <comp ref="Q1">
+      <value>AO3401</value>
+      <footprint>Package_TO_SOT_SMD:SOT-23</footprint>
+      <datasheet>http://www.aosmd.com/res/data_sheets/AO3401.pdf</datasheet>
+      <libsource lib="Jeroens lib" part="AO3401" description="-30V Vds, -4A Id, P-Channel MOSFET, SOT-23-3"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="bauble_pcb.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>a4d65fa3-dd0d-4f23-b20f-5f870fc8d746</tstamps>
+    </comp>
+    <comp ref="R1">
+      <value>10K</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="bauble_pcb.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>b2b75067-f12c-4db6-a773-59189f126995</tstamps>
+    </comp>
+    <comp ref="R2">
+      <value>10K</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="bauble_pcb.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>c327b956-0016-4dc7-b682-65e33cce4ccd</tstamps>
+    </comp>
+    <comp ref="R3">
+      <value>4K7</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="bauble_pcb.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>3fb54424-584f-4960-8745-3b1fd0d0fb39</tstamps>
+    </comp>
+    <comp ref="R4">
+      <value>220</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="bauble_pcb.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>2ba209d8-09aa-4d85-a88b-e861f9608d1c</tstamps>
+    </comp>
+    <comp ref="U1">
+      <value>HT7833_SOT89</value>
+      <footprint>Package_TO_SOT_SMD:SOT-89-3</footprint>
+      <datasheet>http://www.holtek.com.tw/documents/10179/82844a36-1633-498c-a6e3-4d99f2d0f6d7</datasheet>
+      <libsource lib="Jeroens lib" part="HT7833_SOT89" description="HT783X 500mA LDO SOT89"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="bauble_pcb.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>b8cef77e-f309-4a1f-b93b-0a5d5c155c06</tstamps>
+    </comp>
+    <comp ref="U2">
+      <value>TP4057</value>
+      <footprint>Package_TO_SOT_SMD:SOT-23-6</footprint>
+      <datasheet>https://www.datasheet-pdf.info/attach/1/3887467401.pdf</datasheet>
+      <libsource lib="Jeroens lib" part="TP4057" description="1A LiIon battery charger"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="bauble_pcb.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>84398c9f-77cf-4ccc-be4f-67aebf979fbf</tstamps>
+    </comp>
+  </components>
+  <libparts>
+    <libpart lib="Connector_Generic" part="Conn_01x02">
+      <description>Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Connector*:*_1x??_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_01x02</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Connector_Generic" part="Conn_01x04">
+      <description>Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Connector*:*_1x??_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_01x04</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+        <pin num="3" name="Pin_3" type="passive"/>
+        <pin num="4" name="Pin_4" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="C_Small">
+      <description>Unpolarized capacitor, small symbol</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>C_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">C_Small</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="R">
+      <description>Resistor</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>R_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">R</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Diode" part="MBR0520">
+      <description>20V 0.5A Schottky Power Rectifier Diode, SOD-123</description>
+      <docs>http://www.mccsemi.com/up_pdf/MBR0520~MBR0580(SOD123).pdf</docs>
+      <footprints>
+        <fp>D*SOD?123*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">MBR0520</field>
+        <field name="Footprint">Diode_SMD:D_SOD-123</field>
+        <field name="Datasheet">http://www.mccsemi.com/up_pdf/MBR0520~MBR0580(SOD123).pdf</field>
+      </fields>
+      <pins>
+        <pin num="1" name="K" type="passive"/>
+        <pin num="2" name="A" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Espressif" part="ESP32-C3-WROOM-02">
+      <description>ESP32-C3-WROOM-02 is a general-purpose Wi-Fi and Bluetooth LE module. This module features a rich set of peripherals and high performance, which makes it an ideal choice for smart home, industrial automation, health care, consumer electronics, etc.</description>
+      <docs>https://www.espressif.com/sites/default/files/documentation/esp32-c3-wroom-02_datasheet_en.pdf</docs>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">ESP32-C3-WROOM-02</field>
+        <field name="Footprint">Espressif:ESP32-C3-WROOM-02</field>
+        <field name="Datasheet">https://www.espressif.com/sites/default/files/documentation/esp32-c3-wroom-02_datasheet_en.pdf</field>
+      </fields>
+      <pins>
+        <pin num="1" name="3V3" type="power_in"/>
+        <pin num="2" name="EN/CHIP_PU" type="input"/>
+        <pin num="3" name="GPIO4/ADC1_CH4" type="bidirectional"/>
+        <pin num="4" name="GPIO5/ADC2_CH0" type="bidirectional"/>
+        <pin num="5" name="GPIO6" type="bidirectional"/>
+        <pin num="6" name="GPIO7" type="bidirectional"/>
+        <pin num="7" name="GPIO8" type="bidirectional"/>
+        <pin num="8" name="GPIO9" type="bidirectional"/>
+        <pin num="9" name="GND" type="power_in"/>
+        <pin num="10" name="GPIO10" type="bidirectional"/>
+        <pin num="11" name="GPIO20/U0RXD" type="bidirectional"/>
+        <pin num="12" name="GPIO21/U0TXD" type="bidirectional"/>
+        <pin num="13" name="GPIO18/USB_D-" type="bidirectional"/>
+        <pin num="14" name="GPIO19/USB_D+" type="bidirectional"/>
+        <pin num="15" name="GPIO3/ADC1_CH3" type="bidirectional"/>
+        <pin num="16" name="GPIO2/ADC1_CH2" type="bidirectional"/>
+        <pin num="17" name="GPIO1/ADC1_CH1/XTAL_32K_N" type="bidirectional"/>
+        <pin num="18" name="GPIO0/ADC1_CH0/XTAL_32K_P" type="bidirectional"/>
+        <pin num="19" name="GND" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="Jeroens lib" part="AO3401">
+      <description>-30V Vds, -4A Id, P-Channel MOSFET, SOT-23-3</description>
+      <docs>http://www.aosmd.com/res/data_sheets/AO3401.pdf</docs>
+      <footprints>
+        <fp>SOT?23*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">Q</field>
+        <field name="Value">AO3401</field>
+        <field name="Footprint">TO_SOT_Packages_SMD:SOT-23</field>
+        <field name="Datasheet">http://www.aosmd.com/res/data_sheets/AO3401.pdf</field>
+      </fields>
+      <pins>
+        <pin num="1" name="G" type="input"/>
+        <pin num="2" name="S" type="passive"/>
+        <pin num="3" name="D" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Jeroens lib" part="HT7833_SOT89">
+      <description>HT783X 500mA LDO SOT89</description>
+      <docs>http://www.holtek.com.tw/documents/10179/82844a36-1633-498c-a6e3-4d99f2d0f6d7</docs>
+      <footprints>
+        <fp>*:SOT-89-3*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">HT7833_SOT89</field>
+        <field name="Footprint">Package_TO_SOT_SMD:SOT-89-3</field>
+        <field name="Datasheet">http://www.holtek.com.tw/documents/10179/82844a36-1633-498c-a6e3-4d99f2d0f6d7</field>
+      </fields>
+      <pins>
+        <pin num="1" name="GND" type="power_in"/>
+        <pin num="2" name="VIN" type="power_in"/>
+        <pin num="3" name="VOUT" type="power_out"/>
+      </pins>
+    </libpart>
+    <libpart lib="Jeroens lib" part="LCD_LH096T">
+      <description>LH096T 160*80 color LCD</description>
+      <docs>http://www.jmdlcd.com/downloadRepository/f743f83e-f761-4d72-b1f0-3fcd0ae34dc2.pdf</docs>
+      <fields>
+        <field name="Reference">DISP</field>
+        <field name="Value">LCD_LH096T</field>
+        <field name="Datasheet">http://www.jmdlcd.com/downloadRepository/f743f83e-f761-4d72-b1f0-3fcd0ae34dc2.pdf</field>
+      </fields>
+      <pins>
+        <pin num="1" name="TP0" type="no_connect"/>
+        <pin num="2" name="TP1" type="no_connect"/>
+        <pin num="3" name="SDA" type="input"/>
+        <pin num="4" name="SCL" type="input"/>
+        <pin num="5" name="RS" type="input"/>
+        <pin num="6" name="RES" type="input"/>
+        <pin num="7" name="CS" type="input"/>
+        <pin num="8" name="GND" type="power_in"/>
+        <pin num="9" name="NC" type="no_connect"/>
+        <pin num="10" name="VCC" type="input"/>
+        <pin num="11" name="LEDK" type="power_in"/>
+        <pin num="12" name="LEDA" type="power_in"/>
+        <pin num="13" name="GND" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="Jeroens lib" part="TP4057">
+      <description>1A LiIon battery charger</description>
+      <docs>https://www.datasheet-pdf.info/attach/1/3887467401.pdf</docs>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">TP4057</field>
+        <field name="Footprint">Package_TO_SOT_SMD:SOT-23-6</field>
+        <field name="Datasheet">https://www.datasheet-pdf.info/attach/1/3887467401.pdf</field>
+      </fields>
+      <pins>
+        <pin num="1" name="nCHRG" type="open_collector"/>
+        <pin num="2" name="GND" type="power_in"/>
+        <pin num="3" name="BAT" type="power_in"/>
+        <pin num="4" name="Vcc" type="power_in"/>
+        <pin num="5" name="nSTDBY" type="open_collector"/>
+        <pin num="6" name="PROG" type="input"/>
+      </pins>
+    </libpart>
+  </libparts>
+  <libraries>
+    <library logical="Connector_Generic">
+      <uri>/Applications/KiCad/KiCad.app/Contents/SharedSupport/symbols//Connector_Generic.kicad_sym</uri>
+    </library>
+    <library logical="Device">
+      <uri>/Applications/KiCad/KiCad.app/Contents/SharedSupport/symbols//Device.kicad_sym</uri>
+    </library>
+    <library logical="Diode">
+      <uri>/Applications/KiCad/KiCad.app/Contents/SharedSupport/symbols//Diode.kicad_sym</uri>
+    </library>
+  </libraries>
+  <nets>
+    <net code="1" name="+3V3">
+      <node ref="C4" pin="1" pintype="passive"/>
+      <node ref="R2" pin="1" pintype="passive"/>
+      <node ref="R4" pin="1" pintype="passive"/>
+      <node ref="U1" pin="3" pinfunction="VOUT" pintype="power_out"/>
+    </net>
+    <net code="2" name="EN">
+      <node ref="C3" pin="1" pintype="passive"/>
+      <node ref="R2" pin="2" pintype="passive"/>
+    </net>
+    <net code="3" name="GND">
+      <node ref="C1" pin="2" pintype="passive"/>
+      <node ref="C2" pin="2" pintype="passive"/>
+      <node ref="C3" pin="2" pintype="passive"/>
+      <node ref="C4" pin="2" pintype="passive"/>
+      <node ref="C5" pin="2" pintype="passive"/>
+      <node ref="R1" pin="2" pintype="passive"/>
+      <node ref="R3" pin="2" pintype="passive"/>
+      <node ref="U1" pin="1" pinfunction="GND" pintype="power_in"/>
+      <node ref="U2" pin="2" pinfunction="GND" pintype="power_in"/>
+    </net>
+    <net code="8" name="Net-(C5-Pad1)">
+      <node ref="C5" pin="1" pintype="passive"/>
+      <node ref="Q1" pin="3" pinfunction="D" pintype="passive"/>
+      <node ref="U2" pin="3" pinfunction="BAT" pintype="power_in"/>
+    </net>
+    <net code="9" name="Net-(D1-Pad1)">
+      <node ref="D1" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="Q1" pin="2" pinfunction="S" pintype="passive"/>
+    </net>
+    <net code="10" name="Net-(DISP1-Pad12)">
+      <node ref="R4" pin="2" pintype="passive"/>
+    </net>
+    <net code="15" name="Net-(R3-Pad1)">
+      <node ref="R3" pin="1" pintype="passive"/>
+      <node ref="U2" pin="6" pinfunction="PROG" pintype="input"/>
+    </net>
+    <net code="16" name="VBAT_SW">
+      <node ref="C1" pin="1" pintype="passive"/>
+      <node ref="U1" pin="2" pinfunction="VIN" pintype="power_in"/>
+    </net>
+    <net code="17" name="VBUS">
+      <node ref="C2" pin="1" pintype="passive"/>
+      <node ref="D1" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="Q1" pin="1" pinfunction="G" pintype="input"/>
+      <node ref="R1" pin="1" pintype="passive"/>
+      <node ref="U2" pin="4" pinfunction="Vcc" pintype="power_in"/>
+    </net>
+    <net code="18" name="nCHRG">
+      <node ref="U2" pin="1" pinfunction="nCHRG" pintype="open_collector"/>
+    </net>
+    <net code="19" name="nSTDBY">
+      <node ref="U2" pin="5" pinfunction="nSTDBY" pintype="open_collector"/>
+    </net>
+  </nets>
+</export>

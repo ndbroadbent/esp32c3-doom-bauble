@@ -103,7 +103,7 @@ module pc() {
         translate([0,0,22]) import("files/monitor.stl");
         translate([0,-14,22]) rotate([80,0,0])import("files/monitor_face.stl");
         //bit between monitor and px
-        translate([0,-2,10]) cube([28.5,30,7], center=true);
+        translate([0,-2,10]) cube([28,28.5,7], center=true);
 
         //shim between face and monitor?
         translate([-14,-12.9,29.5]) cube([28,2,3]);

@@ -1,15 +1,15 @@
 /*
  * ----------------------------------------------------------------------------
  * "THE BEER-WARE LICENSE" (Revision 42):
- * Jeroen Domburg <jeroen@spritesmods.com> wrote this file. As long as you retain 
- * this notice you can do whatever you want with this stuff. If we meet some day, 
- * and you think this stuff is worth it, you can buy me a beer in return. 
+ * Jeroen Domburg <jeroen@spritesmods.com> wrote this file. As long as you retain
+ * this notice you can do whatever you want with this stuff. If we meet some day,
+ * and you think this stuff is worth it, you can buy me a beer in return.
  * ----------------------------------------------------------------------------
  */
 
-//Note that this is based on a design from RabbitEngineering: 
+//Note that this is based on a design from RabbitEngineering:
 //https://www.thingiverse.com/thing:3331061 which is licensed under CC-BY-NC.
-//Files for that are located in the files/ and images/ subdirectory. You will 
+//Files for that are located in the files/ and images/ subdirectory. You will
 //be bound to his license (=no commercial products) as long as you use his STLs.
 
 disp_sz=[28,13.5, 1.5];
@@ -45,11 +45,16 @@ module pc_model() {
     difference() {
         pc();
         //lcd
-    translate([5.2,-11,1]) rotate([-8,0,0]) rotate([90,-90,0]) translate([-3,0,0])cube(disp_sz+[3.2, 0.2, 0.2]);    
-        //hollow out
+        translate([5.2,-11,1]) rotate([-8,0,0]) rotate([90,-90,0]) translate([-3,0,0])cube(disp_sz+[3.2, 0.2, 0.2]);
+        // wire line for LCD
+        translate([-0.5-8,-12,-0.1]) cube([13,5,1]);
+
+        //hollow out PC and monitor
         scale(0.73) translate([0,-0,-0.1]) cube([26,20,70], center=true);
-        //air/wire line
-        translate([-0.5-5,-12,-0.1]) cube([1,100,1]);
+
+        //wire line for power switch
+        translate([-0.5-5.5,0,-0.1]) cube([2,50,1]);
+
         //switch
         translate([-4.1-5, 10+1.2, -10+2])cube([8.2, 3, 10]);
         translate([-3-5, 10, -10+2])cube([6, 4.2, 10]);
@@ -58,7 +63,7 @@ module pc_model() {
         //usb conn
         translate([-4.1+5, 9, -10+3])cube([8.2, 7, 10]);
         //usb line
-        translate([-1+5, 7, -10+1])cube([2, 7, 10]);
+        translate([-1+4.5, 7, -10+1])cube([3, 7, 10]);
         //usb conn holes
         translate([5,15-1.5, -10+3-2+5]) union() {
             translate([-2.2,0,5]) cube([0.5, 1.2, 10], center=true);
@@ -89,13 +94,17 @@ module pc_model() {
 
 module pc() {
     scale(0.73)translate([0,0,6.4]) union() {
+        // PC
         import("files/body_back.stl");
         translate([0,1,0]) import("files/body_face.stl");
         translate([0,1,0]) import("files/disks.stl");
+
+        // Monitor
         translate([0,0,22]) import("files/monitor.stl");
         translate([0,-14,22]) rotate([80,0,0])import("files/monitor_face.stl");
         //bit between monitor and px
-        translate([0,-2,10]) cube([28,28.5,7], center=true);
+        translate([0,-2,10]) cube([28.5,30,7], center=true);
+
         //shim between face and monitor?
         translate([-14,-12.9,29.5]) cube([28,2,3]);
     }

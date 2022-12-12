@@ -65,11 +65,11 @@ module pc_model() {
             translate([2.2,0,5]) cube([0.5, 1.2, 10], center=true);
         }
         //speaker grille
-        translate([7,-4,4.1]) rotate([0,90,0]) union() {
+        translate([7,-4,4.4]) rotate([0,90,0]) union() {
             for(i=[0:45:360]) {
-                rotate([0,0,i]) translate([0,-2.3,0]) cylinder(d=1.2, h=10);
+                rotate([0,0,i]) translate([0,-2.5,0]) cylinder(d=1.5, h=10);
             }
-            translate([0,0,0]) cylinder(d=1.2, h=10);
+            translate([0,0,0]) cylinder(d=1.5, h=10);
         }
         //speaker
         translate([4.5,-4,4.1]) hull() {
